@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Lacquer&display=swap');
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -11,74 +12,75 @@ html {
 
 body {
     /*font-family: font stack required for body text */
+    font-family: 'Lacquer', sans-serif;
     font-size: 1rem;
     line-height: 1.4;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     /*font-family: font stack required for headings */
+    font-family: 'BioRhyme Expanded', serif;
+    ;
 }
 
-p {
-    
-}
+p {}
 
 .container {
-    
+    max-width: 1500px;
 }
 
 .subnav {
-    
+    display: flex;
+    justify-content: flex-end;
+    background-color: hsl(227, 17%, 26%);
 }
 
 .subnav a {
-    
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
 }
 
 .mainnav {
-    
+    text-align: center;
+    display: flex;
+    background-color: hsl(227, 17%, 26%);
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .mainnav a {
-    
+    color: hsl(0, 0%, 100%);
+    text-decoration-line: none;
 }
 
 .masthead {
-    
+    text-align: center;
 }
 
-.times-logo {
-    
-}
+.times-logo {}
 
-.masthead h1 {
-    
-}
+.masthead h1 {}
 
-.content {
-    
-}
+.content {}
 
-.content .story {
-    
-}
+.content .story {}
 
-.story.lead-story {
-    
-}
+.story.lead-story {}
 
-h1.story-title {
-    
-}
+h1.story-title {}
 
 .story img {
-    
+    float: right;
+    margin-right: 20px;
 }
 
 .story p {
-    
+    color: red;
 }
 
 .story blockquote {
@@ -93,23 +95,22 @@ h1.story-title {
     content: close-quote;
 }
 
-.story p.byline {
-    
-}
+.story p.byline {}
 
 p.byline span.author {
-    
+    font-weight: bolder;
 }
 
-p.byline span.pub {
-    
-}
+p.byline span.pub {}
 
 .foot {
-    
+    display: flex;
+    justify-content: flex-end;
+    background-color: hsl(227, 17%, 26%);
+    height: 100px;
 }
 
-.foot p
-{
-    
+.foot p {
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
 }
